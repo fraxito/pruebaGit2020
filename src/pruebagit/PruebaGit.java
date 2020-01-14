@@ -10,12 +10,24 @@ package pruebagit;
  * @author xp
  */
 public class PruebaGit {
-
+    
+    private String quita(String cadena){
+        String auxiliar = "";
+        for (int i=0; i< cadena.length(); i++){
+            if (cadena.charAt(i) != ' '){
+                auxiliar = auxiliar + cadena.charAt(i);
+            }
+        }
+        return auxiliar;
+    }
+    
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Prueba GIT");
+        
+        //https://github.com/fraxito/pruebaGit2020.git
+        //he añadido un método que quita espacios
     }
     
 }
